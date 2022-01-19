@@ -16,7 +16,10 @@
                 <div class="title m-b-md">
                     Hello World!
                 </div>
-
+                <h2>
+                    {{$title}}
+                </h2>
+                <h4>{{$text}}</h4>
                 <h2>
                     <a href=" {{ route ('about') }}">Scorpi di piu</a>
                 </h2>

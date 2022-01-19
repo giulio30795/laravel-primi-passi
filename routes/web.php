@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home', [
+        'title' => 'Ciao Laravel',
+        'text' => 'Prova utilizzo variabili',
+    ]);
 });
 
 Route::get('/pippo', function () {
